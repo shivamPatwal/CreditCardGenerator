@@ -1,0 +1,143 @@
+
+#cardmain {
+    
+    background-image: url("bgfront.png");
+
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 110% 110%;
+
+}
+
+#parents{
+  left: 12vw;
+ top: 12vh;
+ position: absolute;
+  
+}
+
+
+.cards1 {
+
+
+    border-radius: 15px;
+    height: 36vh;
+    transition: .2s;
+    width: 33vw;
+    position: absolute;
+
+}
+
+#dot1, #dot2 {
+    border-radius: 50%;
+}
+
+
+#dot1 {
+   
+    background-color: #d2cccc;
+    height: 50px;
+    margin-right: 10px;
+    width: 50px;
+
+  }
+
+  
+#dot2 {
+    background-color: initial;
+    border: 3px solid #d2cccc;
+    height: 30px;
+    width: 30px;
+    
+
+  }
+
+  #details, #data{
+   
+    background-color: initial;
+    display: flex;
+    width: 100%;
+
+  }
+
+  #details  {
+    align-items: center;
+    color: #d2cccc;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+    height: 35%;
+    justify-content: space-evenly;
+    letter-spacing: 2px;
+    margin-top: 40px;
+
+  }
+
+
+
+#data {
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+
+#dots {
+
+    align-items: center;
+    background-color: initial;
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-top: 30px;
+
+}
+
+  #h1{
+    font-size: 35px;
+    background-color: initial;
+    letter-spacing: 3px;
+    margin: 0%;
+  }
+
+  h3 {
+    background-color: initial;
+   
+    margin: 0;
+    
+  }
+
+  #h4 {
+    width: inherit;
+    font-size: 30px;
+    padding-right: 26px;
+    text-align: end;
+    position: absolute;
+    top: 110px;
+    color: white;
+    background-color: initial;
+    letter-spacing: 2px;
+  } 
+
+
+  .cards2 {
+    position: absolute;
+    border-radius: 15px;
+    height: 35vh;
+    transition: .2s;
+    width: 33vw;
+    top: 314px;
+    left: 75px;
+
+}
+
+
+
+  #cardback {
+    
+    background-image: url("bgBack.png");
+
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 110% 110%;
+
+}

@@ -1,0 +1,119 @@
+
+*{ 
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+
+
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+
+form {
+    
+    max-width: max-content;
+    font-family: "Space Grotesk";
+    font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+    align-content: center;
+    
+    justify-items: center;
+     position: absolute;
+     left: 60vw;
+     top: 24vh;
+
+}
+
+
+h1 {
+    font-size: 20px;
+    padding-left:3px;
+    margin-top: 8px;
+    
+   
+ }
+
+input {
+
+    border-radius: 8px;
+    width: 376px;
+    height: 40px;
+    color: #373A40;
+    font-size: 23px;
+    margin-top: 6px;
+    margin-right: 6px;
+    padding-left: 5px;
+}
+
+#exbox1 {
+    width: 66px;
+    text-align: center;
+}
+
+#exbox2 {
+    width: 223px;
+    margin-left: 8px;
+}
+
+#col {
+
+    display: flex;
+    
+    
+
+}
+
+button {
+
+    width: 376px;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 23px;
+    text-align: CENTER;
+    COLOR: WHITE;
+    background-color: #240A34;
+    outline: none;
+    margin-top: 8px;
+    box-shadow: none;
+    
+
+}
+
+label {
+    color: red;
+    padding-left: 10px;
+}
+
+
+
+#finish {
+    
+    max-width: max-content;
+    font-family: "Space Grotesk";
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    align-content: center;
+    justify-items: center;
+    position: absolute;
+    left: 62vw;
+    top: 28vh;
+
+}
+
+
+#h11 {
+    text-align: center;
+    font-size: 30px;
+}
+
+#h22{
+    text-align: center;
+    color: grey;
+    font-size: medium;
+    margin: 25px;
+}
